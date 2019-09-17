@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+  font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
+  margin:0;
+  }
+  
+img{
+  outline:none;
+  border-style:none;
+  }
+  
+  /* h1 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+h1 .subtitle {
+    font-size: 0.7em;
+    font-weight: normal;
+} */
+
+img.chara{
+  width: 200px;
+}
+
+/* sample2用 */
+.content{
+  display: flex;
+}
+
+.content article{
+  width:600px;
+  margin-right:5px;
+  margin-top:5px;
+}
+
+.main-nav a{
+  margin:10px;
+  border-radius: 5px;
+  background:#60B99A;
+  color:#fff;
+  display:block;
+  text-decoration: none;
+  padding: 5px;
+}
+.main-nav{
+  display:flex;
+}
+
+.main-nav{
+  list-style: none;
+}
+
+.wf-nicomoji { 
+  font-family: "Nico Moji";
+  font-size: 1.5em;
+}
+
